@@ -27,7 +27,7 @@ for(let i = 1; i <= 100; i++){
     // Altrimenti utilizzo i numeri
   } else {
 
-    write += `<div class="box">${word}</div>`;
+    write += `<div class="box gray">${word}</div>`;
   }
 }
 

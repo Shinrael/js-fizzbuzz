@@ -19,6 +19,18 @@
   background-color: white;
 }
 
+.yellow{
+  background-color: yellow;
+}
+
+.lightblue{
+  background-color: lightblue;
+}
+
+.orange{
+  background-color: lightsalmon;
+}
+
 .debug{
   border: 1px solid black;
 }

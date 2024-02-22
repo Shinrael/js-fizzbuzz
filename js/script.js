@@ -8,21 +8,25 @@ for(let i = 1; i <= 100; i++){
   boxQ.innerHTML = write;
 
   // Dentro i multipli di 3 e 5 metto la parola FizzBuzz
-
+ 
   if ((i % 3 === 0) && (i % 5 === 0)) {
-    write += '<div class="box">FizzBuzz</div>';
+
+    write += '<div class="box orange">FizzBuzz</div>';
 
     // Dentro i multipli di 3 metto Fizz
 
   } else if (i % 3 === 0) {
-    write += '<div class="box">Fizz</div>';
+
+    write += '<div class="box yellow">Fizz</div>';
 
     // Dentro i multipli di 5 metto Buzz
   } else if (i % 5 === 0) {
-    write += '<div class="box">Buzz</div>';
+
+    write += '<div class="box lightblue">Buzz</div>';
 
     // Altrimenti utilizzo i numeri
   } else {
+
     write += `<div class="box">${word}</div>`;
   }
 }

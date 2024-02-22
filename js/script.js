@@ -7,9 +7,9 @@ for(let i = 1; i <= 100; i++){
   let word = i;
   boxQ.innerHTML = write;
 
-  // Dentro i multipli di 15 metto la parola FizzBuzz
+  // Dentro i multipli di 3 e 5 metto la parola FizzBuzz
 
-  if (i % 15 === 0) {
+  if ((i % 3 === 0) && (i % 5 === 0)) {
     write += '<div class="box">FizzBuzz</div>';
 
     // Dentro i multipli di 3 metto Fizz
